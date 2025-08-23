@@ -2,7 +2,7 @@
 
 This is my personal developer portfolio showcasing front-end projects I’ve built using modern web technologies.
 
-🔗 **Live Site:** [View Portfolio](https://your-netlify-link.netlify.app)
+🔗 **Live Site:** [View Portfolio](https://shondii-fed-portfolio.netlify.app)
 
 ---
 
