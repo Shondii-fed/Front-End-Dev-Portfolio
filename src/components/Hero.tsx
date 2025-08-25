@@ -40,7 +40,14 @@ function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.6, duration: 0.8 }}
                 >
-                Since my change in careers, I have engrossed myself in the world of web development over the last year, focusing on the React library and Typescript. Through the use of tutorials, Scrimba online Front End Careeer Path, and personal projects, I have honed my skills in building dynamic and responsive web applications. My passion for coding drives me to continuously learn and improve, and I am excited to bring my perspective to new challenges in the tech industry.
+                <p>
+                    I’m a <strong>Frontend Developer</strong> specializing in <strong>React, TypeScript, and modern JavaScript</strong>. Over the last year, I’ve built 25+ projects while completing the <strong>Scrimba Frontend Developer Career Path</strong> and <strong>Dave Gray’s Web Development Roadmap</strong>. My experience spans <strong><em>responsive UI development, API integration, state management, and local storage solutions</em></strong> using   tools like <strong><em>React Router, Tailwind CSS, and Git/GitHub</em></strong>.
+                </p>
+                <br></br>
+                <p>
+                    I thrive on solving complex problems, writing clean, scalable code, and creating seamless user experiences. My background in collaborative work environments helps me bring strong <strong><em>communication, adaptability, and teamwork</em></strong> to every project. I’m excited to contribute these skills to a forward-thinking development team.
+                </p>
+
             </motion.p>
 
             <motion.a 

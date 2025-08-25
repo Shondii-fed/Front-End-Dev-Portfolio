@@ -18,18 +18,30 @@ export default function About() {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1 }}
-                    className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
+                    className="text-lg text-gray-600 dark:text-gray-300 text-left leading-relaxed"
                 >
-                    Hi, I’m <span className="font-semibold">Sean Diggs</span>, a passionate{" "}
-                    <span className="font-semibold">Frontend Developer</span> with a focus
-                    on building interactive and responsive applications using{" "}
-                    <span className="font-semibold">React, TypeScript, and TailwindCSS</span>.
-                    I love solving problems; be it in games, work, or social settings, creating 
-                    user-friendly designs, and continuously learning new technologies to sharpen 
-                    my skills. My motto is to always internally ask myself, "Why is this the way it 
-                    works? and how can I make it better?" I believe in the power of collaboration and
-                    am always eager to contribute to projects that make a difference. If you would like 
-                    to know more about me, click the button below for me Resume/CV.
+                    <p>
+                        Hi, I’m <strong>Sean Diggs</strong>, a passionate <strong>Frontend Developer</strong> dedicated to building interactive and responsive applications with <strong><em>React, TypeScript, JavaScript, and Tailwind CSS</em></strong>.
+                    </p>
+
+                    <br></br>
+                    
+                    <p>
+                        I’ve completed 25+ projects, including dynamic apps deployed on <strong><em>Github</em></strong> and <strong><em>Netlify</em></strong>, showcasing my skills in <strong><em>responsive design, API integration, and modern frontend development</em></strong>. I’m always curious—constantly asking, <em>“Why does this work this way, and how can I improve it?”</em>—which drives me to continuously learn and refine my craft.
+                    </p>
+                    
+                    <br></br>
+                    
+                    <p>
+                        Beyond technical skills, I bring strong <strong><em>collaboration and problem-solving experience</em></strong> from years of working on large-scale, team-driven projects. My goal is to contribute to impactful software that improves user experiences while growing alongside talented developers.
+                    </p>
+                    
+                    <br></br>
+                    
+                    <p>
+                        📄 Curious to see more? Check out my <strong>Resume/CV</strong> below to dive deeper into my journey.
+                    </p>
+
                 </motion.p>
 
                 <div className="flex justify-center gap-4 mt-6">
