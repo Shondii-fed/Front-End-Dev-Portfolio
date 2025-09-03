@@ -16,7 +16,7 @@ const projects: Project[] = [
         altText: 'Tenzie screenshot',
         description: 'A fun dice game built with React',
         tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://tenzies-shondii-fed.netlify.app/",
+        link: "https://shondii-tenzies.netlify.app/",
     },
     {
         title: 'Todo App',
@@ -24,7 +24,7 @@ const projects: Project[] = [
         altText: 'Todo App screenshot',
         description: 'A simple todo application to manage tasks',
         tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://gleeful-yeot-9862a7.netlify.app/",
+        link: "https://shondii-todo.netlify.app/",
     },
     {
         title: 'Weather App',
@@ -32,7 +32,7 @@ const projects: Project[] = [
         altText: 'Weather App screenshot',
         description: 'A weather application that fetches data from a weather API',
         tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://sdweathertracker.netlify.app/",
+        link: "https://shondii-weathertracker.netlify.app/",
     },
     {
         title: 'Assembly-Endgame',
@@ -40,7 +40,7 @@ const projects: Project[] = [
         altText: 'Assembly-Endgame screenshot',
         description: 'A fun hangman game tied into programming',
         tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://assembly-endgame-shondii-fed.netlify.app/",
+        link: "https://shondii-assembly-endgame.netlify.app/",
     }
 ]
 

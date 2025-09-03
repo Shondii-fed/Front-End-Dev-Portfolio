@@ -1,50 +1,7 @@
 import { useState } from 'react';
 import { Button } from '../components/ui/button';
 import Navbar from '../components/Navbar';
-
-type Project = {
-    title: string;
-    image: string;
-    altText: string;
-    description: string;
-    tech: string[];
-    link: string;
-}
-
-const allProjects: Project[] = [
-    {
-        title: 'Tenzies',
-        image: './images/Tenzies.png',
-        altText: 'Tenzie screenshot',
-        description: 'A fun dice game built with React',
-        tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://tenzies-shondii-fed.netlify.app/",
-    },
-    {
-        title: 'Todo App',
-        image: './images/Todo App DarkMode.png',
-        altText: 'Todo App screenshot',
-        description: 'A simple todo application to manage tasks',
-        tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://gleeful-yeot-9862a7.netlify.app/",
-    },
-    {
-        title: 'Weather App',
-        image: './images/Weather App.png',
-        altText: 'Weather App screenshot',
-        description: 'A weather application that fetches data from a weather API',
-        tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://sdweathertracker.netlify.app/",
-    },
-    {
-        title: 'Assembly-Endgame',
-        image: './images/Assembly-Endgame.png',
-        altText: 'Assembly-Endgame screenshot',
-        description: 'A fun hangman game tied into programming',
-        tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://assembly-endgame-shondii-fed.netlify.app/",
-    }
-]
+import { projects } from '../data/projects.ts'
 
 export default function AllProjects() {
     const [currentPage, setCurrentPage] = useState(1);
@@ -52,8 +9,8 @@ export default function AllProjects() {
 
     const indexOfLast = currentPage * projectsPerPage;
     const indexOfFirst = indexOfLast - projectsPerPage;
-    const currentProjects = allProjects.slice(indexOfFirst, indexOfLast);
-    const totalPages = Math.ceil(allProjects.length / projectsPerPage);
+    const currentProjects = projects.slice(indexOfFirst, indexOfLast);
+    const totalPages = Math.ceil(projects.length / projectsPerPage);
 
     return (
         <>
@@ -63,9 +20,9 @@ export default function AllProjects() {
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 mt-10">All Projects</h2>
 
                 <div className="grid md:grid-cols-2 gap-8">
-                    {currentProjects.map((project, index) => (
+                    {currentProjects.map((project) => (
                         <div
-                        key={index}
+                        key={project.id}
                         className="bg-white dark:bg-gray-900 rounded-2xl shadow-md p-6 flex flex-col justify-between
                                         transition-transform transform hover:scale-105 hover:shadow-lg"
                             >
