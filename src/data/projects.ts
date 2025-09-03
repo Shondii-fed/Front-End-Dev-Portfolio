@@ -62,5 +62,14 @@ export const projects: projects[] = [
         description: 'Input a value to receive a conversion for Mass, Volume, Length in imperial and metric.',
         tech: ['HTML5', 'JavaScript', 'CSS3'],
         link: "https://shondii-unit-converter.netlify.app/",
+    },
+    {
+        id: 7,
+        title: 'Recipe Page',
+        image: './images/Recipe Page.png',
+        altText: 'Recipe Page screenshot',
+        description: 'Recreation of a recipe page challenge from Frontend Mentor.',
+        tech: ['HTML5', 'CSS3'],
+        link: "https://shondii-recipe-page.netlify.app/",
     }
 ]
