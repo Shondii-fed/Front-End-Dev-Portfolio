@@ -50,6 +50,10 @@ export default function Navbar() {
                     <Link className="text-gray-700 hover:text-indigo-600 hover:font-semibold hover:scale-105 transition" to="/projects">
                         All Projects
                     </Link>
+                    
+                    <Link className="text-gray-700 hover:text-indigo-600 hover:font-semibold hover:scale-105 transition" to="/certifications">
+                        Certifications
+                    </Link>
                 </div>
 
                 <button
@@ -86,6 +90,13 @@ export default function Navbar() {
                             onClick={() => setIsOpen(false)}
                         >
                             All Projects
+                        </Link>
+                        <Link 
+                            to="/certifications"
+                            className="text-gray-700 hover:text-blue-600 transition"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Certifications
                         </Link>
                     </motion.div>
                 )}
