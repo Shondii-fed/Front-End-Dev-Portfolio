@@ -19,12 +19,12 @@ const projects: Project[] = [
         link: "https://shondii-tenzies.netlify.app/",
     },
     {
-        title: 'Todo App',
-        image: './images/Todo App DarkMode.png',
-        altText: 'Todo App screenshot',
-        description: 'A simple todo application to manage tasks',
-        tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        link: "https://shondii-todo.netlify.app/",
+        title: 'Saasify Landing Page',
+        image: './images/Desktop_Screenshot.png',
+        altText: 'Saasify Desktop screenshot',
+        description: 'SaaS Landing Page Template',
+        tech: ['React', 'JavaScript', 'HTML5', 'CSS3'],
+        link: "https://saasify-lp.netlify.app/",
     },
     {
         title: 'Weather App',
@@ -42,6 +42,7 @@ const projects: Project[] = [
         tech: ['React', 'TypeScript', 'Tailwind CSS'],
         link: "https://shondii-assembly-endgame.netlify.app/",
     }
+        
 ]
 
 export default function MainProjects() {

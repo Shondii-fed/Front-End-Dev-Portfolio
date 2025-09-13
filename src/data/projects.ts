@@ -71,5 +71,14 @@ export const projects: projects[] = [
         description: 'Recreation of a recipe page challenge from Frontend Mentor.',
         tech: ['HTML5', 'CSS3'],
         link: "https://shondii-recipe-page.netlify.app/",
+    },
+    {
+        id: 8,
+        title: 'Saasify Landing Page',
+        image: './images/Desktop_Screenshot.png',
+        altText: 'Saasify Desktop screenshot',
+        description: 'SaaS Landing Page Template',
+        tech: ['React', 'JavaScript', 'HTML5', 'CSS3'],
+        link: "https://saasify-lp.netlify.app/",
     }
 ]
