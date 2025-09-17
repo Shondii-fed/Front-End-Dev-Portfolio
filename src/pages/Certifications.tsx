@@ -2,20 +2,21 @@ import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Navbar from '../components/Navbar'
+import { Certification } from '../data/certs'
 
-type Certification = {
-    title: string
-    image: string
-    altText: string
-}
+// type Certification = {
+//     title: string
+//     image: string
+//     altText: string
+// }
 
-const certifications: Certification[] = [
-    {
-        title: 'Scrimba Frontend Developer Career Path',
-        image: './images/FDCP Cert..png',
-        altText: 'Scrimba Frontend Career Path Certificate'
-    }
-]
+// const certifications: Certification[] = [
+//     {
+//         title: 'Scrimba Frontend Developer Career Path',
+//         image: './images/FDCP Cert..png',
+//         altText: 'Scrimba Frontend Career Path Certificate'
+//     }
+// ]
 
 export default function Certifications() {
     const [selectedCert, setSelectedCert] = useState<Certification | null>(null)
@@ -45,7 +46,7 @@ export default function Certifications() {
 
                 {/* Grid of Certs */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                    {certifications.map((cert, index) => (
+                    {Certification.map((cert, index) => (
                         <div
                         key={index}
                         className="bg-white dark:bg-gray-900 shadow-md rounded-xl overflow-hidden cursor-point hover:scale-[1.05] transition"
