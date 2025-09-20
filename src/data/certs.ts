@@ -38,18 +38,24 @@ export const Certification: Certification[] = [
     },
     {
         id: 6,
+        title: 'Scrimba Intro to SQL',
+        image: './certs/Intro_to_SQL_Cert.png',
+        altText: 'Scrimba Intro to SQL Certification',
+    },
+    {
+        id: 7,
         title: 'Scrimba Command Line Basics',
         image: './certs/Command_Line_Basics_Cert.png',
         altText: 'Scrimba Command Line Basics Certification',
     },
     {
-        id: 7,
+        id: 8,
         title: 'Scrimba JavaScript Interview Challenges',
         image: './certs/JavaScript_Interview_Challenges_Cert.png',
         altText: 'Scimba JavaScript Interview Challenges Certification',
     },
     {
-        id: 8,
+        id: 9,
         title: 'Scrimba Frontend Interview Tips',
         image: './certs/Frontend_Interview_Cert.png',
         altText: 'Scrimba Frontend Interview Tops Certification',
